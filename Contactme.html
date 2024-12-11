@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .box {
+        height: 650px;
+        width: 500px;
+        border: 2px solid rgb(104, 104, 104);
+        border-radius: 10px;
+
+    }
+
+    form{
+        padding: 25px;
+    }
+
+    .full{
+        width: 100%;
+    }
+
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyResume</title>
+</head>
+
+<body>
+    <div>
+
+        <a href="./home.html">Home</a> |
+        <a href="./Education.html">Education</a> |
+        <a href="./Work Experience.html">Work Experience</a> |
+        <a href="./Contactme.html">Contact Me</a> |
+    </div>
+
+    <hr />
+    <h1>Contact Me</h1>
+
+    <div class="box">
+        <form action="">
+
+            <h4 style="padding-left: 30px;">Enter your info</h4>
+
+            <label for="name">
+                Your Name :
+                <br>
+                <input class="full" type="text" name="name">
+
+
+            </label>
+            <br>
+
+            <label for="email">
+                Your Email :
+                <br>
+                <input class="full" type="email" name="email">
+
+
+            </label>
+            <br><br>
+            <label for="gender">
+                Gender :
+                <br>
+                <select class="full" name="gender" id="gender">
+
+                    <option value="" selected disabled>please select</option>
+                    <option value="male">Male</option>
+                    <option value="female">FeMale</option>
+                    <option value="Others">Others</option>
+
+                </select>
+
+
+            </label><br><br>
+
+            <label>
+                Message :
+                <br>
+
+                <textarea name="" id="" rows="20" cols=65">
+
+
+        </textarea>
+
+            </label>
+<input id="send" type="submit" value="Send">
+<input id="clear"  type="reset" value="Clear">
+
+        </form>
+    </div>
